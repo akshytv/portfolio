@@ -1,0 +1,51 @@
+.top-section{
+    img{
+        height: 600px;
+        width: auto;
+    }
+    a{
+        text-decoration: none;
+    }
+    .star{
+       color: gold;
+    }
+    
+}
+.category{
+    h5{
+        text-transform: capitalize;
+        color: rgb(158, 212, 235);
+    }
+}
+.button-section{
+    .buy button{
+        padding: 5px 13px;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(46, 155, 202);
+        font-size: large;
+        color: white;
+        &:hover{
+            background-color: white;
+            color: rgb(46, 155, 202);
+            transition: 0.3s ease-in-out;
+            border: 1px solid rgb(46, 155, 202);
+        }
+    }
+    .cart button{
+        padding: 5px 13px;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(112, 110, 107);
+        font-size: large;
+        color: white;
+        &:hover{
+            background-color: white;
+            color: rgb(112, 110, 107);
+            transition: 0.3s ease-in-out;
+            border: 1px solid rgb(112, 110, 107);
+        }
+
+        
+    }
+}
