@@ -1,0 +1,19 @@
+.card-section{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.description{
+    font-weight: 500;
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

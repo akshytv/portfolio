@@ -1,0 +1,13 @@
+<app-intro-section [data]='introData'></app-intro-section>
+<div class="content">
+    @for(item of educationData; track item.id){
+        <app-about-eduction [educationData]='item'></app-about-eduction>
+    }
+</div>
+
+<div class="experiance-content">
+    @for(item of experianceData; track item.id){
+        <app-about-experiance [data]='item'></app-about-experiance>
+    }
+</div>
+<app-contact-form></app-contact-form>
